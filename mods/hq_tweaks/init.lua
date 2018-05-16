@@ -223,7 +223,7 @@ minetest.register_craft({
 --
 -- Campfire's tweak
 --
-
+--[[
 -- Use Hard Trees Redo's rocks to craft the campfire
 
 minetest.clear_craft({output = "campfire:campfire"})
@@ -236,7 +236,7 @@ minetest.register_craft({
 		{"group:rocks", "group:rocks", "group:rocks"}
 	}
 })
-
+--]]
 
 --
 -- Castle Lighting's tweaks
